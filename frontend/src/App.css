@@ -1,0 +1,99 @@
+.header {
+    background-color: #212121;
+	padding: 3px;
+	display: flex;
+	flex-direction: row;
+}
+
+.header h1 {
+	margin: 3px;	
+}
+
+.header img {
+	margin: 5px;
+	margin-left: 10px;
+	margin-top: 9px;
+}
+
+.input{
+	color: black;
+}
+
+.container {
+	display: flex;
+}
+
+.Icon {
+	cursor: pointer;
+	margin-left: auto;
+	margin-top: 8px;
+}
+
+.myId {
+	margin-left: auto;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	border-radius: 5px;
+	background: rgba(239,239,239,0.9); /* fallback for old browsers */
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: 0.5s ease;
+}
+
+.myId.visible {
+	display: none;
+}
+
+.call-button {
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.line{
+	height: 1px;
+	width: 100%;
+	margin-top: 15px;
+	background-color: #818181;
+}
+
+.share-btn{
+	margin-top: 10px;
+	background-color: #000;
+}
+
+.video-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+}
+
+video{
+	height: 300px;
+	width: 500px;
+	flex: 1;
+	margin: 1px;
+	object-fit: cover;
+}
+
+.caller {
+	text-align: center;
+	color: #fff;
+}
+
+.calling{
+	display: block;
+}
+
+body {
+	background: #075e54; /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #9400d3, #000);
+	background: linear-gradient(
+		to right,
+		#9400d3,
+		#000
+	);*/
+	margin: 0;
+	padding: 0;
+}
